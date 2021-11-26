@@ -20,7 +20,7 @@
 .logo_place_header {
   width: 183px;
   height: 32px;
-  position: absolute; top: 30px; left: 64px;
+  position: absolute;top: 30px;left: 64px;
 }
 .header__title {
   display: flex;
@@ -35,14 +35,14 @@
   font-weight: normal;
   line-height: 25px;
   width: 388px;
-  position: absolute; left: 64px; bottom: 30px;
+  position: absolute;left: 64px;bottom: 30px;
 }
 
 .content__link_cursor::after {
   content: '\2192';
 }
 .header__main-illustration {
-  position: absolute; right: 0px; bottom: 0px;
+  position: absolute;right: 0px;bottom: 0px;
   z-index: 1;
 }
 
@@ -55,7 +55,7 @@
   height: 568px;
   width: 568px;
   background: #2f80ed;
-  position: absolute; top: 64px; right: 0px;
+  position: absolute;top: 64px;right: 0px;
 }
 
 .content {
@@ -189,7 +189,7 @@ flex-direction: column;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  position: absolute; top: 50%; right: 40px;
+  position: absolute;top: 50%;right: 40px;
 
 }
 .kaufman {
@@ -219,7 +219,7 @@ flex-direction: column;
 }
 
 .kaufman-triangle{
-  position: absolute; top: 0px; right: -210px;
+  position: absolute;top: 0px;right: -210px;
 }
 .triangle_img {
   width: 877px;
@@ -249,7 +249,7 @@ flex-direction: column;
   height: 35px;
 }
 .footer__column_author {
-  position: absolute; bottom: 18px;
+  position: absolute;bottom: 18px;
   color: white;
 }
 .footer__column_content_info {
