@@ -3,7 +3,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;/*Ð±Ñ‹Ð»Ð¾ Ð¾Ñ‚ ÑÐ½Ð´ÐµÐºÑÐ°*/
+  font-family: 'Helvetica Neue', Arial, sans-serif;
   flex-direction: column;
 }
 
@@ -16,11 +16,13 @@
   position: relative;
   align-items: center;
 }
+
 .logo_place_header {
   width: 183px;
   height: 32px;
   position: absolute;top: 30px;left: 64px;
 }
+
 .header__title {
   display: flex;
   font-size: 102px;
@@ -29,6 +31,7 @@
   width: 730px;
   margin-left: 64px;
 }
+
 .header__subtitle{
   font-size: 18px;
   font-weight: normal;
@@ -40,6 +43,7 @@
 .content__link_cursor::after {
   content: '\2192';
 }
+
 .header__main-illustration {
   position: absolute;right: 0px;bottom: 0px;
   z-index: 1;
@@ -62,22 +66,26 @@ display: flex;
 height: 100%;
 flex-direction: column;
 }
+
 .description {
   display: flex;
   justify-content: center;
 }
+
 .two-columns {
   display: flex;
   width: 80%;
   margin: 100px 0;
   justify-content: space-between;
 }
+
 .two-columns__brief {
   display: flex;
   flex-wrap: wrap;
   align-self: stretch;
   width: 175px;
 }
+
 .two-columns__header {
   line-height: 1.2;
   font-size: 18px;
@@ -85,6 +93,7 @@ flex-direction: column;
   color: #2f80ed;
   margin-top: 0px;
 }
+
 .two-columns__main-text {
   display: flex;
   flex-direction: column;
@@ -100,9 +109,11 @@ flex-direction: column;
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .two-columns__span-accent {
   font-weight: bold;
 }
+
 .two-columns__paragraph_inden {
   margin: 30px 0;
 }
@@ -112,6 +123,7 @@ flex-direction: column;
   flex-direction: column;
   align-items:center;
 }
+
 .title {
   width: 60%;
   line-height: 1.15;
@@ -129,6 +141,7 @@ flex-direction: column;
   font-weight: normal;
   text-align: center;
 }
+
 .table {
   margin-left: auto;
   margin-right: auto;
@@ -137,18 +150,22 @@ flex-direction: column;
   flex-wrap: wrap;
   width: 1100px;
 }
+
 .digits__table {
   margin-bottom: 100px;
 }
+
 .table-cell {
   width: 250px;
   margin-top: 60px;
 }
+
 .table-cell__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
+
 .table-cell__text {
   line-height: 1.2;
   font-size: 18px;
@@ -169,6 +186,7 @@ flex-direction: column;
   background-size: 867px 637px;
   background-position: left bottom;
 }
+
 .feynman__title {
   line-height: 1.15;
   font-size: 120px;
@@ -184,6 +202,7 @@ flex-direction: column;
   font-weight: normal;
   margin-top: 70px;
 }
+
 .feynman__link {
   line-height: 51px;
   font-size: 36px;
@@ -201,15 +220,19 @@ flex-direction: column;
   background: #1f1f1f;
   overflow: hidden;
 }
+
 .kaufman__title_theme_dark {
     color: white;
 }
+
 .kaufman__subtitle_theme_dark {
     color: white;
 }
+
 .kaufman__table_theme_dark {
   margin-bottom: 90px;
 }
+
 .table-cell_theme_dark {
   width: 200px;
   color: white;
@@ -220,16 +243,19 @@ flex-direction: column;
 .kaufman-triangle{
   position: absolute;top: 0px;right: -210px;
 }
+
 .triangle_img {
   width: 877px;
   height: 877px;
 }
+
 .footer {
   display: flex;
   background: #1f1f1f;
   min-height: 350px;
   justify-content: center;
 }
+
 .columns {
   display: flex;
   justify-content: space-between;
@@ -237,36 +263,43 @@ flex-direction: column;
   margin-top: 60px;
   margin-bottom: 40px;
 }
+
 .footer__column_content_copytigrt {
   display: flex;
   flex-direction: column;
   position: relative;
   flex-basis: 711px;
 }
+
 .logo_place_footer {
   width: 183px;
   height: 35px;
 }
+
 .footer__column_author {
   position: absolute;bottom: 18px;
   color: white;
 }
+
 .footer__column_content_info {
   display: flex;
   flex-direction: column;
 }
+
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
+
 .footer__column {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
   margin-bottom: 16px;
-  }
+}
+
 .footer__link {
   line-height: 30px;
   font-size: 18px;
@@ -274,11 +307,13 @@ flex-direction: column;
   color: white;
   text-decoration: none;
 }
+
 .footer__colimn_content_social {
   display: flex;
   flex-direction: column;
 }
-.footer__social-icon_img{
+
+.footer__social-icon_img {
   width: 16px;
   height: 16px;
   margin-right: 10px;
