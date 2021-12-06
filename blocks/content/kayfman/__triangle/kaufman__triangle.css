@@ -7,6 +7,6 @@
   height: 877px;
   background-size: cover;
 }
-.kautman-rotation__triangle {
+.rotation__triangle {
   animation: rotation 20s linear infinite;
 }
