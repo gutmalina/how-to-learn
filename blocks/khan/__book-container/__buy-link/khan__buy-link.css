@@ -3,6 +3,7 @@
   font-size: 30px;
   font-weight: normal;
   text-decoration: none;
+  color: #2f80ed;
   transition: opacity 0.5s easy-in-out;
 }
 .khan__buy-link::after {

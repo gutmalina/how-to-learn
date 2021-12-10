@@ -1,11 +1,6 @@
 .video__iframes {
   display: flex;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
- }
-.video__iframes-indents {
-  margin-top: 50px;
-  margin-bottom: -50px;
+  margin: 50px auto -50px;
   z-index: 2;
 }
